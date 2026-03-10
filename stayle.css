@@ -122,7 +122,8 @@
     border-radius: 10px;
     margin-top: 10px;
 }
-.char1{
+
+.char1 {
     text-align: center;
     margin-top: 20px;
 }
@@ -137,6 +138,30 @@
     margin-top: 30px;
 }
 
+.panj5 {
+    background-image: url(./img/bf8a40060807c258cf8e59f06ca2bac424b8729c.jpg);
+    width: 100%;
+    height: 800px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 30px;
+    color: #ffffff;
+}
+.char1{
+    padding-top: 30px;
+}
+.char1 p{
+    color: blueviolet;
+}
+.chap0{
+    display: flex;
+    justify-content: center;
+}
+.boxpanj5{
+    width: 25%;
+    text-align: center;
+}
 
 
 @media (max-width: 700px) {
@@ -174,8 +199,9 @@
     .se3 {
         height: 500px;
     }
+
     .box41 {
-    width: 95%;
-    margin-left: 1%;
-}
+        width: 95%;
+        margin-left: 1%;
+    }
 }
