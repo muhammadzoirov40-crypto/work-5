@@ -98,26 +98,43 @@
 .boxdu2 p {
     margin: 10px 0px;
 }
-.ce{
+
+.ce {
     background-color: rgba(0, 255, 255, 0.765);
 }
 
 .se3 {
+    margin-top: 30px;
     background-image: url(./img/image.png);
     width: 100%;
     color: #ffffff;
     height: 400px;
     text-align: center;
-    padding-top:50px ;
+    padding-top: 50px;
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.b1{
-    padding:10px 20px;
+
+.b1 {
+    padding: 10px 20px;
     border: none;
     border-radius: 10px;
     margin-top: 10px;
+}
+.char1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box41 {
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box42 {
+    margin-top: 30px;
 }
 
 
@@ -153,7 +170,12 @@
         box-shadow: 0px 0px 10px 0px rgb(193, 193, 193);
 
     }
-    .se3{
+
+    .se3 {
         height: 500px;
     }
+    .box41 {
+    width: 95%;
+    margin-left: 1%;
+}
 }
