@@ -138,7 +138,7 @@
     margin-top: 30px;
 }
 
-.panj5 {
+.panj5,.haft7{
     background-image: url(./img/bf8a40060807c258cf8e59f06ca2bac424b8729c.jpg);
     width: 100%;
     height: 800px;
@@ -148,22 +148,93 @@
     margin-top: 30px;
     color: #ffffff;
 }
-.char1{
+
+.char1 {
     padding-top: 30px;
 }
-.char1 p{
+
+.char1 p {
     color: blueviolet;
 }
-.chap0{
+
+.chap0 {
     display: flex;
     justify-content: center;
 }
-.boxpanj5{
+
+.boxpanj5 {
     width: 25%;
     text-align: center;
 }
 
+.cha6 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 
+.box61,
+.box62,
+.box63
+{
+    display: flex;
+    background-image: url(./img/43db88e72d9e1d6654b0f29ed569c8b5e8755c40.jpg);
+    width: 20%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    align-items: end;
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+    justify-content: center;
+
+}
+
+.haw1 {
+    font-size: 50px;
+}
+
+.paw1 {
+    font-size: 15px;
+    color: black;
+}
+
+.box62 {
+    background-image: url(./img/6864323b293b2779715361b1e6db6a20602d46b7.jpg);
+}
+
+.box63 {
+    background-image: url(./img/bf042bf485930d7575a01bf84bd549899349ba1f.jpg);
+}
+.haft7{
+    background-image: url(./img/01fa1a4147a033c00196c7d2c2877b9512e67509.jpg);
+    height: 350px;
+}
+.box71{
+    text-align: center;
+    margin-top: 50px;
+    padding: 60px 0px;
+}
+.box71 h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.img1 img{
+    width: 16%;
+    height: 120px;
+
+}
+.img1{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+.hae1{
+    text-align: center;
+    margin: 15px 0px;
+}
 @media (max-width: 700px) {
 
     .all,
@@ -204,4 +275,48 @@
         width: 95%;
         margin-left: 1%;
     }
+
+    .chap01 {
+        display: none;
+    }
+
+    .chap02 {
+        display: none;
+    }
+
+    .cha6 {
+        display: none;
+        width:
+    }
+
+    .panj5 {
+        height: 500px;
+    }
+
+    .cha6 {
+        display: block;
+        width: 100%;
+    }
+
+    .box61,
+    .box62,
+    .box63 {
+        width: 95%;
+        margin: 10px;
+
+    }
+
+    .box61 h3,
+    .box62 h3,
+    .box63 h3 {
+        font-size: 30px;
+    }
+
+    .boxpanj5 {
+        width: 100%;
+    }
+    .img1 img{
+    width: 20%;
+
+}
 }
