@@ -316,6 +316,20 @@ body {
     background-color: #1A236E66;
 
 }
+.dah{
+    background-color: black;
+    color: #ffffff;
+    padding: 50px;
+}
+.boxd1,.boxd2{
+    justify-content: center;
+}
+.boxd2{
+    display: flex;
+}
+.boxd2 p{
+margin: 10px;
+}
 
 @media (max-width: 700px) {
 
@@ -427,4 +441,7 @@ body {
     .huh9{
         height: 590px;
     }
+    .boxd2 p{
+margin: 5px;
+}
 }
